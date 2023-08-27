@@ -1,0 +1,21 @@
+.change-content::after {
+    content: "";
+    animation: changetxt 10s infinite linear;
+  }
+  @keyframes changetxt {
+    0% {
+      content: "Web";
+    }
+    25% {
+      content: "FrontEnd";
+    }
+    50% {
+      content: "BackEnd";
+    }
+    75% {
+      content: "React";
+    }
+    100% {
+      content: "Node";
+    }
+  }

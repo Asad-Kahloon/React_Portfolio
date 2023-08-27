@@ -1,0 +1,46 @@
+footer {
+  background-color: #000;
+  height: 200px;
+  width: 100%;
+  color:rgb(159, 159, 159);
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  padding: 2rem;
+  border-top: 1px solid #323232;
+}
+  footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div h1 {
+      font: 700 2rem "Roboto";
+      text-transform: uppercase;
+      color:rgb(159, 159, 159);
+        }
+    footer div p {
+      font: 500 1.2rem "Roboto";
+    }
+
+    footer div h5 {
+      font: 300 2rem "Roboto";
+      margin: 1rem 0;
+    }
+
+    footer div div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    footer div div a {
+         color:rgb(159, 159, 159);
+        font: 900 1rem cursive;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+        footer div div a:hover {
+          color: #ffffff;
+          transform: scale(1.3);
+        }
+      

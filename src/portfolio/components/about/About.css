@@ -1,0 +1,48 @@
+.hr{
+    width:200px;
+}
+.w90{
+    height: 28px;
+     width: 95%;
+}
+.w85{
+    height: 28px;
+    width: 85%;
+}
+
+.w80{
+    height: 28px;
+    width: 80%;
+}
+.priceBox{
+    margin: 0 -16px;
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.client{
+    display: flex;
+    flex-direction: column;
+}
+.clients_img{
+    margin-top: 10px;
+    width: 80px;
+}
+.Gallery{
+    margin: 0 -16px;
+}
+.Gallery img{
+    width: 100%;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+  }
+
+  footer a{
+    margin-left: 10px;
+  }
+

@@ -1,0 +1,10 @@
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+nav img{
+    width: 100%;
+}
+.navbar div a{
+    width: 25% !important;
+}
